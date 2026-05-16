@@ -11,9 +11,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '/KAJ',
-  experimental: {
-    turbopack: {}, // Silence turbopack/webpack conflict
-  }
+  turbopack: {}, // Silence turbopack/webpack conflict at root level
 };
 
 module.exports = withPWA(nextConfig);
