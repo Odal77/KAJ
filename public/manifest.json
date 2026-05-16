@@ -1,0 +1,21 @@
+{
+  "name": "MediaHub",
+  "short_name": "MediaHub",
+  "description": "Personal media library manager",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ff9000",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192/ff9000/000000?text=MH",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512/ff9000/000000?text=MediaHub",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
